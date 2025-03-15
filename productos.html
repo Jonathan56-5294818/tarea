@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo1.png"></a>
+        <h1> Pollos locos </h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de los Productos que tenemos en venta </h1>
+        <div class="catalogo">
+            <!-- producto 1  -->
+            <div class="producto">
+                <img src="imagen/bochi1.png" wide="100" height="100" alt="bochi">
+                <div class="producto-info">
+                    <h2>POLLO ASADO AL HORNO CON PATATAS</h2>
+                    <p> Pollo asado al horno de muy buena calidad </p>
+                    <p class="precio"> $110.00</p>
+                </div>
+            </div>
+    
+            <!-- producto 2 -->
+            <div class="producto">
+                <img src="imagen/bochi2.png" wide="100" height="100" alt="Producto 2">
+                <div class="producto-info">
+                    <h2> POLLO A LA NARANJA RECETA CHINA </h2>
+                    <p>Pollo echa ala receta china de muy buena calidad</p>
+                    <p class="precio">$115.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/bochi3.png" wide="100" height="100" alt="Producto 3">
+                <div class="producto-info">
+                    <h2> POLLO AGRIDULCE </h2>
+                    <p>Un diferente sabor alo de siempre pero delicioso</p>
+                    <p class="precio">$120.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/bochi4.png" wide="100" height="100" alt="Producto 4">
+                <div class="producto-info">
+                    <h2> POLLO A LA CERVEZA GUISADO </h2>
+                    <p>Un buen producto si buscas algo que consumes bastante</p>
+                    <p class="precio">$150.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/bochi5.png" wide="100" height="100" alt="Producto 4">
+                <div class="producto-info">
+                    <h2> POLLO FRITO CRUJIENTE </h2>
+                    <p> Este producto te ara hasta que quieras mas</p>
+                    <p class="precio">$100.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/bochi6.png" wide="100" height="100" alt="Producto 4">
+                <div class="producto-info">
+                    <h2> PECHUGAS DE POLLO MUY CRUJIENTES </h2>
+                    <p>Un poco mas del delicioso sabor que todos buscan</p>
+                    <p class="precio">$115.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/bochi10.png" wide="100" height="100" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>ALITAS BUFFALO WINGS</h2>
+                    <p>Este sabor te ara que quieras probarlo de nuevo</p>
+                    <p class="precio">$125.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/bochi8.png" wide="100" height="100" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>POLLO RELLENO ASADO</h2>
+                    <p>Pruebe un poco de uestro pollo relleno para que lo disfrute asu gusto</p>
+                    <p class="precio">$190.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 pollos locos.Todos los derechos reservados al colegio de bachilleres</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/g/18RKahXaBv/" target="_blank">Facebook</a> |
+            <a href="https://x.com/JonathanJessTr2?t=BVLWwtiW15M_OqaZayFoQ&s09" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/trujilloyonathan84?igsh=MXR5bzViNDZvcG1wcw==" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: trujilloyonathan84@gmail.com </p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>

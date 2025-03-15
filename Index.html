@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo1.png" wide="100" height="100"></a>
+        <h1> Venta de pollos locos </h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/bochi13.png" wide="100" height="100" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2> pollos locos </h2>
+                <p>Nuestra clave es darte un buen servicio en los productos que te proveemos</p>    
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2> LAS PROMOCIONES DE POLLOS LOCOS </h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagen/bochi12.png" wide="100" height="100" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>pollo asado </h2>
+                        <p> pollo asado de muy buen sabor y precio </p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagen/bochi11.png" wide="100" height="100" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2> pollo enmarindo </h2>
+                        <p>pollo marinado de muy buen sabor y precio </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li> servicio a domicilio : $40</li>                   
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="imagen/bochi9.png" wide="200" height="150" alt="Servicio">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2> Marcas que nos patrocinan </h2>
+            <div class="brands">
+                <img src="imagen/logo2.png" wide="100" height="100" alt="Marca 1">
+                <img src="imagen/logo3.png" wide="100" height="100" alt="Marca 2">
+                <img src="imagen/logo4.png" wide="100" height="100" alt="Marca 3">
+                <img src="imagen/logo5.png" wide="100" height="100" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 pollos locos. Todos los derechos reservados al colegio de bachilleres.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/share/g/18RKahXaBv/" target="_blank">Facebook</a> |
+            <a href="https://x.com/JonathanJessTr2?t=BVLWwtiW15M_OqaZayFoQ&s09" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com/trujilloyonathan84?igsh=MXR5bzViNDZvcG1wcw==" target="_blank">Instagram</a>         
+        </div>
+        <p>Contacto: trujilloyonathan84@gmail.com </p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
